@@ -1,0 +1,214 @@
+@media only screen and (max-width: 600px) {
+	* {
+  box-sizing: border-box;
+}
+body{
+	background-color : 	#87CEEB;
+}
+
+.blockquote{
+	
+  position: fixed;
+  bottom: 0px;;
+  right: 0;
+}
+.navbar{
+	background-color : 	#FFFF00;
+	padding : 10px;
+	margin : 1px 0px;
+}
+.navbar-brand
+{
+	font-family :URW Chancery L, cursive;
+
+	 font-weight: bold;
+	color : blue;
+}
+
+.navbar-toggler
+{
+
+   border : 2px solid black;
+   
+}
+#navdroptop{
+	border-top : 1px solid black;width : 100%;
+}
+button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-nav a
+{
+	color : black;
+	padding : 5px;
+	font-weight : bold;
+	font-size : 20px;
+	font-family:American Typewriter, serif
+}
+.navbar-nav navlink a : active
+{
+	background-color : white;
+}
+button.icon-bar{
+	color : white;
+	border : 1px solid black;
+}
+#nav-list a:hover {
+  background: white;
+}
+.navbar-collapse
+{
+	    position : relative;
+		margin-top : 10px;
+}
+.blockquote {
+	text-align : center;
+	padding : 5px;
+	margin: 200px 0px 0px 0px;
+	  position: fixed;
+  bottom: 200px;
+  right: 0;
+	
+}
+
+.blockquote-footer{
+	
+	padding : 5px;
+}
+.qpap{
+	text-align : center;
+	padding : 5px;
+	margin: 200px 0px 0px 0px;
+	  position: fixed;
+  bottom: 200px;
+  right: 100px;
+	
+}
+
+h2{
+	text-align:center;
+	font-size : 25px;
+	margin-top:80px;
+	color : black;
+	
+}
+	table{
+		background-color : white ;
+	border: 4px solid black;
+  position : relative;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 40px 25px 50px 25px;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+th
+{
+	background-color : #dae4ee;
+}
+.tabend{
+	border-bottom : 3px solid black
+}
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+	* {
+  box-sizing: border-box;
+}
+body{
+	background-color : 	#87CEEB;
+}
+
+.blockquote{
+	
+	position : relative;
+}
+.navbar{
+	background-color : 	#FFFF00;
+	padding : 10px;
+	margin : 1px 0px;
+}
+.navbar-brand
+{
+	font-family :URW Chancery L, cursive;
+
+	 font-weight: bold;
+	color : blue;
+}
+.navbar-nav a
+{
+	color : black;
+	padding : 5px;
+	font-weight : bold;
+	font-size : 20px;
+	font-family:American Typewriter, serif
+}
+.navbar-nav navlink a : active
+{
+	background-color : white;
+}
+#nav-list a:hover {
+  background: white;
+}
+.navbar-toggler
+{
+
+   border : 0px solid black;
+   
+}
+.blockquote{
+	padding : 5px;
+	
+}
+.blockquote-footer{
+	padding : 5px;
+}
+
+h2{
+	text-align:center;
+	font-size : 25px;
+	margin-top:80px;
+	color : black;
+	
+}
+	table{
+		background-color : white ;
+	border: 4px solid black;
+  position : relative;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 40px 25px 50px 25px;
+}
+.qpap{
+	position:fixed;
+	bottom : 300px;
+	left:500px;
+	
+}
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+th
+{
+	background-color : #dae4ee;
+}
+.tabend{
+	border-bottom : 3px solid black
+}
+       
+}
